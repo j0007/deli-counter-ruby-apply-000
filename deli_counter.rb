@@ -16,9 +16,11 @@ def line (katz_deli)
   end
 
 def give_a_number(katz_deli)
-  ticket = 0
-
-    ticket + 1
+  ticket = 1
+  katz_deli.push(ticket)
+  
+  puts "Welcome #{ticket}"
+  ticket + 1 
 end
 
 =begin
@@ -26,7 +28,6 @@ def take_a_number (katz_deli, name)
   katz_deli.push(name)
   puts "Welcome, #{name}. You are number #{katz_deli.index(name) + 1} in line."
 end
-==end 
 
 def now_serving(katz_deli)
       if katz_deli.length == 0
