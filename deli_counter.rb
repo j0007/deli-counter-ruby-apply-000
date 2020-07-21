@@ -23,6 +23,10 @@ def give_a_number(katz_deli)
 end
 
 give_a_number(katz_deli)
+give_a_number(katz_deli)
+give_a_number(katz_deli)
+give_a_number(katz_deli)
+
 
 =begin
 def take_a_number (katz_deli, name)
