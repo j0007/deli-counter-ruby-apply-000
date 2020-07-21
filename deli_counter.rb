@@ -19,7 +19,7 @@ def give_a_number(katz_deli)
   ticket = 1
   katz_deli.push(ticket)
   puts "Welcome customer #{ticket}"
-  ticket += 1 
+  ticket = ticket + 1 
 end 
 give_a_number(katz_deli)
 give_a_number(katz_deli)
