@@ -17,7 +17,7 @@ def line (katz_deli)
 
 def give_a_number(katz_deli)
   ticket = 0
-
+katz_deli 
     ticket + 1
 end
 
