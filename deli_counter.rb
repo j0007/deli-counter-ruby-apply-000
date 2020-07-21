@@ -15,7 +15,7 @@ def line (katz_deli)
     end
   end
 
-def give_a_number()
+def give_a_number(katz_deli)
   ticket = 1
   katz_deli.push(ticket)
   puts "Welcome customer #{ticket}"
