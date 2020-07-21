@@ -22,7 +22,7 @@ def give_a_number(katz_deli)
   ticket + 1 
 end
 
-give_a_number()
+give_a_number(katz_deli)
 
 =begin
 def take_a_number (katz_deli, name)
