@@ -18,7 +18,7 @@ def line (katz_deli)
 def give_a_number(katz_deli)
   ticket = 1
   katz_deli.push(ticket)
-  puts "Welcome #{ticket}"
+  puts "Welcome customer #{ticket}"
   ticket + 1 
 end
 
@@ -44,3 +44,4 @@ line(katz_deli)
 now_serving(katz_deli) 
 line(katz_deli)
 =end
+give_a_number
