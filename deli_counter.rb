@@ -16,8 +16,9 @@ def line (katz_deli)
   end
 
 def give_a_number(katz_deli)
-  
-  katz_deli.length + 1
+  ticket = 0
+
+    ticket + 1
 end
 
 =begin
